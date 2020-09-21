@@ -122,16 +122,16 @@ public class Player : MonoBehaviour
         RB.velocity = workspace;
         CurrentVelocity = workspace;
     }
-
-    #endregion
-
-    #region Check Functions
-
     public void SetVelocityZero()
     {
         RB.velocity = Vector2.zero;
         CurrentVelocity = Vector2.zero;
     }
+    #endregion
+
+    #region Check Functions
+
+
     public bool CheckIfGrounded()
     {
         return Physics2D.OverlapCircle(groundCheck.position, playerData.groundCheckRadius, playerData.whatIsGround);

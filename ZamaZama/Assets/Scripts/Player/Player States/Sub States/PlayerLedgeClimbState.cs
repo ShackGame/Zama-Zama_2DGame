@@ -65,29 +65,31 @@ public class PlayerLedgeClimbState : PlayerState
     {
         base.LogicUpdate();
 
+        player.SetVelocityZero();
+        player.transform.position = startPos;
+
+        xInput = player.InputHandler.NormInputX;
+
         if (isAnimationFinished)
         {
             stateMachine.ChangeState(player.IdleState);
         }
         else
         {
-            player.Anim.SetBool("climbLedge", true);
-            //xInput = player.InputHandler.NormInputX;
-            //yInput = player.InputHandler.NormInputY;
+            xInput = player.InputHandler.NormInputX;
+            
+            player.SetVelocityZero();
+            player.transform.position = startPos;
 
-            //player.SetVelocityZero();
-            //player.transform.position = startPos;
-
-            //if (xInput == player.FacingDirection && isHanging && !isClimbing)
-            //{
-            //    isClimbing = true;
-            //    player.Anim.SetBool("climbLedge", true);
-            //}
-            ////Replace yInput with -facing direction so that the player drops if -negative direction is given 
-            //else if (-xInput == player.FacingDirection && isHanging && !isClimbing)
-            //{
-            //    stateMachine.ChangeState(player.InAirState);
-            //}
+            if (xInput == player.FacingDirection && isHanging && !isClimbing)
+            {
+                isClimbing = true;
+                player.Anim.SetBool("climbLedge", true);
+            }
+            else if (-xInput == player.FacingDirection && isHanging && !isClimbing)
+            {
+                stateMachine.ChangeState(player.InAirState);
+            }
         }
     }
 
