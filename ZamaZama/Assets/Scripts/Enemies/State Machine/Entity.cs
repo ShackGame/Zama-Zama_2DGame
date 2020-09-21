@@ -129,8 +129,9 @@ public class Entity : MonoBehaviour
         DamageHop(entityData.damageHopSpeed);
 
         Instantiate(entityData.hitParticle, aliveGO.transform.position, Quaternion.Euler(0f, 0f, Random.Range(0f, 360f)));
+        Instantiate(entityData.scoreParticle, aliveGO.transform.position, Quaternion.Euler(0f, 0f, Random.Range(0f, 360f)));
 
-        if(attackDetails.position.x > aliveGO.transform.position.x)
+        if (attackDetails.position.x > aliveGO.transform.position.x)
         {
             lastDamageDirection = -1;
         }

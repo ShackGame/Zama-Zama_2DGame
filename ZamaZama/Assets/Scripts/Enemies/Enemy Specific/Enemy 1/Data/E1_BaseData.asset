@@ -24,6 +24,8 @@ MonoBehaviour:
   closeRangeActionDistance: 1
   hitParticle: {fileID: 1960066643687054105, guid: 111cca998cae0054b9d70de609ad58c6,
     type: 3}
+  scoreParticle: {fileID: 6049236099606229026, guid: 30925dfc2234da2489cddb289705c4f6,
+    type: 3}
   whatIsGround:
     serializedVersion: 2
     m_Bits: 256
