@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9582442acb8b36b49bea7b483c941553, type: 3}
+  m_Name: PlayerData
+  m_EditorClassIdentifier: 
+  maxHealth: 50
+  hitParticle: {fileID: 1960066643687054105, guid: 111cca998cae0054b9d70de609ad58c6,
+    type: 3}
+  deathBloodParticle: {fileID: 3607576350896865167, guid: b2cbe275cded69142b792f8b406200b0,
+    type: 3}
+  deathChukParticle: {fileID: 2437185398631983264, guid: a070f193ecb5ca04087e5a581fda64e1,
+    type: 3}
+  movementVelocity: 10
+  meleeAtackRadius: 0.3
+  whatIsEnemy:
+    serializedVersion: 2
+    m_Bits: 512
+  damageAmount: 10
+  jumpVelocity: 15
+  amountOfJumps: 1
+  coyoteTime: 0.2
+  variableJumpHeightMultiplier: 0.5
+  wallSlideVelocity: 3
+  wallClimbVelocity: 3
+  startOffset: {x: 0.15, y: 0.35}
+  stopOffset: {x: 1, y: 1}
+  groundCheckRadius: 0.1
+  wallCheckDistance: 0.4
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 256
