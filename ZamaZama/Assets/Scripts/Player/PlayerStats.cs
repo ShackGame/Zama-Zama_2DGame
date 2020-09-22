@@ -6,8 +6,6 @@ using UnityEngine.UI;
 
 public class PlayerStats : MonoBehaviour
 {
-    public static float Score;
-    public static float Health;
     public int numberOfHearts;
 
     public Image[] hearts;
@@ -16,22 +14,18 @@ public class PlayerStats : MonoBehaviour
 
     public TMP_Text scoreTxt;
 
-    private void Start()
-    {
-        Health = 5f;
-    }
     private void Update()
     {
-        scoreTxt.text = "Score: " + Score;
+        scoreTxt.text = "Score: " + GameManager.Score;
 
-        if(Health > numberOfHearts)
+        if(GameManager.Health > numberOfHearts)
         {
-            Health = numberOfHearts;
+            GameManager.Health = numberOfHearts;
         }
         for (int i = 0; i < hearts.Length; i++)
         {
 
-            if(i < Health)
+            if(i < GameManager.Health)
             {
                 hearts[i].sprite = fullHeart;
             }

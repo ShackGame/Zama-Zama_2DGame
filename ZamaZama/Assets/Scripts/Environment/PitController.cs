@@ -18,7 +18,7 @@ public class PitController : MonoBehaviour
     {
         if(collision.tag == "Player")
         {
-            PlayerStats.Health -= 5f;
+            GameManager.Health -= 5f;
             collision.SendMessage("Damage", attackDetails);
         }
     }

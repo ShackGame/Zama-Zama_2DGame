@@ -179,7 +179,7 @@ public class Player : MonoBehaviour
     {
 
         currentHealth -= attackdetails.damageAmount;
-        PlayerStats.Health -= 1f;
+        GameManager.Health -= 1f;
 
         Instantiate(playerData.hitParticle, RB.transform.position, Quaternion.Euler(0f, 0f, Random.Range(0f, 360f)));
         
