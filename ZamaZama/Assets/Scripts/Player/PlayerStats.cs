@@ -14,6 +14,10 @@ public class PlayerStats : MonoBehaviour
 
     public TMP_Text scoreTxt;
 
+    private void Start()
+    {
+        GameManager.Health = 5f;
+    }
     private void Update()
     {
         scoreTxt.text = "Score: " + GameManager.Score;

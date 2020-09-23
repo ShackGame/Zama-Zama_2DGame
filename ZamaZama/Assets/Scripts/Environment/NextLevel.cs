@@ -36,4 +36,6 @@ public class NextLevel : MonoBehaviour
 
         Addressables.LoadSceneAsync(nextSceneAddress);
     }
+
+   
 }

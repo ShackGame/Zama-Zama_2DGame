@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -422,7 +422,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1633761707}
-        m_MethodName: QuitGame
+        m_MethodName: ExitGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1840,7 +1840,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1633761702}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1a686ab702ea1eb49aaaca161a6ce114, type: 3}
+  m_Script: {fileID: 11500000, guid: 7499c0ba93823f948992974963df41a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1659289665

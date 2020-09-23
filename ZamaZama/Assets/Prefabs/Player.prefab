@@ -80,7 +80,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1285072455
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: -2580687991395893417, guid: 80e485d54fbc67441aa05aab8043332b,
     type: 3}
@@ -167,11 +167,12 @@ MonoBehaviour:
   wallCheck: {fileID: 8668961549367930289}
   ledgeCheck: {fileID: 8668961549363811979}
   meleePosition: {fileID: 8668961548553609006}
+  jumpEffectPos: {fileID: 8668961548734856576}
   dustPuff: {fileID: 661788622785719290, guid: aa88ebbf68760be4a9d2ebceb5bd3840, type: 3}
   jumpEffect: {fileID: 8345390109258660992, guid: 9fe63a86e02eb1b4dbd34a0026a91b09,
     type: 3}
-  jumpEffectPos: {fileID: 8668961548734856576}
-  respawn: {fileID: 0}
+  gameOverUI: {fileID: 5574500535103658942, guid: 71d46ac78e41d1a4ba24e18b5c4a8918,
+    type: 3}
 --- !u!114 &8668961548359350690
 MonoBehaviour:
   m_ObjectHideFlags: 0

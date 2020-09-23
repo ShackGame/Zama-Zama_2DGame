@@ -38,11 +38,11 @@ public class Player : MonoBehaviour
     private Transform ledgeCheck;
 
     public Transform meleePosition;
+    public Transform jumpEffectPos;
+
     public GameObject dustPuff;
     public GameObject jumpEffect;
-    public Transform jumpEffectPos;
-    
-    public Respawner respawn;
+
     #endregion
 
     #region Other Variables
@@ -76,9 +76,7 @@ public class Player : MonoBehaviour
 
     private void Start()
     {
-        
 
-        
         Anim = GetComponent<Animator>();
         InputHandler = GetComponent<PlayerInputHandler>();
         RB = GetComponent<Rigidbody2D>();
@@ -86,10 +84,6 @@ public class Player : MonoBehaviour
         FacingDirection = 1;
 
         currentHealth = playerData.maxHealth;
-
-        respawn = GameObject.FindGameObjectWithTag("PS").GetComponent<Respawner>(); 
-
-        //GameManager.Health = 5f;
 
         StateMachine.Initialize(IdleState);
 

@@ -71,7 +71,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3819227ed5564c4aa97c8fd859cb49d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextSceneAddress: Level 1
+  nextSceneAddress: Level 2
   transition: {fileID: 2216851550528761022}
   transtionTime: 2
 --- !u!1 &6742197760729628989
