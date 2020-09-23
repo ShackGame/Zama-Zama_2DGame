@@ -16,6 +16,11 @@ public class NextLevel : MonoBehaviour
         StartCoroutine(LoadLevel());
     }
 
+    public void OnButtonStart()
+    {
+        StartCoroutine(LoadLevel());
+    }
+
     IEnumerator LoadLevel()
     {
         transition.SetTrigger("start");

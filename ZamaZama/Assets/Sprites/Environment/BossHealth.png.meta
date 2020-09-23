@@ -1,0 +1,1388 @@
+fileFormatVersion: 2
+guid: 141607466c04c054783e253ad4fd062d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6654969259374264348
+    second: BossHealth_0
+  - first:
+      213: 4118504602581718988
+    second: BossHealth_1
+  - first:
+      213: -1556369535142377498
+    second: BossHealth_2
+  - first:
+      213: 3386850876548141786
+    second: BossHealth_3
+  - first:
+      213: 2984196035514165891
+    second: BossHealth_4
+  - first:
+      213: -3030441562178287152
+    second: BossHealth_5
+  - first:
+      213: 7633042727894510787
+    second: BossHealth_6
+  - first:
+      213: 8346987924296571441
+    second: BossHealth_7
+  - first:
+      213: -6864043355309189620
+    second: BossHealth_8
+  - first:
+      213: 7277872456911607855
+    second: BossHealth_9
+  - first:
+      213: 8248482037062894854
+    second: BossHealth_10
+  - first:
+      213: -3111254882110326821
+    second: BossHealth_11
+  - first:
+      213: 8009735201594799710
+    second: BossHealth_12
+  - first:
+      213: -7729125781834630475
+    second: BossHealth_13
+  - first:
+      213: -3213340434624029562
+    second: BossHealth_14
+  - first:
+      213: -2132060840201834097
+    second: BossHealth_15
+  - first:
+      213: 4501262466658545990
+    second: BossHealth_16
+  - first:
+      213: -3020767253572171805
+    second: BossHealth_17
+  - first:
+      213: 2738000925310974153
+    second: BossHealth_18
+  - first:
+      213: 3821614616137030625
+    second: BossHealth_19
+  - first:
+      213: -2548018711332846826
+    second: BossHealth_20
+  - first:
+      213: 4771644421401324899
+    second: BossHealth_21
+  - first:
+      213: -5040362484724289104
+    second: BossHealth_22
+  - first:
+      213: 7140203287774138442
+    second: BossHealth_23
+  - first:
+      213: -8370454271257453825
+    second: BossHealth_24
+  - first:
+      213: 1546214186307961894
+    second: BossHealth_25
+  - first:
+      213: -8607253375619808164
+    second: BossHealth_26
+  - first:
+      213: 6761618615628945324
+    second: BossHealth_27
+  - first:
+      213: -6301291607080090162
+    second: BossHealth_28
+  - first:
+      213: -6019353751661781587
+    second: BossHealth_29
+  - first:
+      213: 5226770626293931845
+    second: BossHealth_30
+  - first:
+      213: -2856487897664049791
+    second: BossHealth_31
+  - first:
+      213: -2979171054896060235
+    second: BossHealth_32
+  - first:
+      213: -3590097741102544914
+    second: BossHealth_33
+  - first:
+      213: 1766630879864788298
+    second: BossHealth_34
+  - first:
+      213: 6009846940116001934
+    second: BossHealth_35
+  - first:
+      213: -6327076734619879390
+    second: BossHealth_36
+  - first:
+      213: 2115913524673433091
+    second: BossHealth_37
+  - first:
+      213: -8907369955962410212
+    second: BossHealth_38
+  - first:
+      213: -745795991687426975
+    second: BossHealth_39
+  - first:
+      213: 2203247016608997495
+    second: BossHealth_40
+  - first:
+      213: 7381414655829335849
+    second: BossHealth_41
+  - first:
+      213: 1298266943657299287
+    second: BossHealth_42
+  - first:
+      213: 7863839191051902578
+    second: BossHealth_43
+  - first:
+      213: 5836606708758452638
+    second: BossHealth_44
+  - first:
+      213: -935468645457186985
+    second: BossHealth_45
+  - first:
+      213: 1591654919993607693
+    second: BossHealth_46
+  - first:
+      213: 7313023757937539063
+    second: BossHealth_47
+  - first:
+      213: 914631919767026175
+    second: BossHealth_48
+  - first:
+      213: -8831941725984454940
+    second: BossHealth_49
+  - first:
+      213: -621106469841489159
+    second: BossHealth_50
+  - first:
+      213: -4394948595168627864
+    second: BossHealth_51
+  - first:
+      213: -5522314257494970572
+    second: BossHealth_52
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BossHealth_0
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 816
+        width: 777
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c10c52828433b5c50800000000000000
+      internalID: 6654969259374264348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossHealth_1
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 898
+        width: 5
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc7d1b28d1ed72930800000000000000
+      internalID: 4118504602581718988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossHealth_2
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 767
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e7499e572aa66ae0800000000000000
+      internalID: -1556369535142377498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossHealth_3
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 588
+        width: 190
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad25fdb8de2800f20800000000000000
+      internalID: 3386850876548141786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossHealth_4
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 596
+        width: 171
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38a63fcbb7ef96920800000000000000
+      internalID: 2984196035514165891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossHealth_5
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 624
+        width: 424
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d988c58475b1f5d0800000000000000
+      internalID: -3030441562178287152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossHealth_6
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 567
+        width: 19
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cce78f5be30ee960800000000000000
+      internalID: 7633042727894510787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossHealth_7
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 348
+        width: 816
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a1c2cfa4576d370800000000000000
+      internalID: 8346987924296571441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossHealth_8
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 336
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c065ae38fe40eb0a0800000000000000
+      internalID: -6864043355309189620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossHealth_9
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 318
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f28d0d29072300560800000000000000
+      internalID: 7277872456911607855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossHealth_10
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 314
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 605035bd5be787270800000000000000
+      internalID: 8248482037062894854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossHealth_11
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 292
+        width: 80
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd73d1a3b2a92d4d0800000000000000
+      internalID: -3111254882110326821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossHealth_12
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 282
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e56fffb7abb482f60800000000000000
+      internalID: 8009735201594799710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossHealth_13
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 228
+        width: 197
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bafe655d01acb490800000000000000
+      internalID: -7729125781834630475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossHealth_14
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 307
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68cd5d356ebe763d0800000000000000
+      internalID: -3213340434624029562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossHealth_15
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 302
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f81bf3446f56962e0800000000000000
+      internalID: -2132060840201834097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossHealth_16
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 304
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6413bfd5d52b77e30800000000000000
+      internalID: 4501262466658545990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossHealth_17
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 269
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e7c2b500341416d0800000000000000
+      internalID: -3020767253572171805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossHealth_18
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 275
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c8f9d3c5555ff520800000000000000
+      internalID: 2738000925310974153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossHealth_19
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 276
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ebd94fde3a190530800000000000000
+      internalID: 3821614616137030625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossHealth_20
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 274
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61305f56b7e93acd0800000000000000
+      internalID: -2548018711332846826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossHealth_21
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 258
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36da91ce159483240800000000000000
+      internalID: 4771644421401324899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossHealth_22
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 261
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b1bdce66090d0ab0800000000000000
+      internalID: -5040362484724289104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossHealth_23
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 164
+        width: 326
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a409adf4f09171360800000000000000
+      internalID: 7140203287774138442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossHealth_24
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 253
+        width: 31
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffa5c09503c26db80800000000000000
+      internalID: -8370454271257453825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossHealth_25
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 259
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6244e893c91457510800000000000000
+      internalID: 1546214186307961894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossHealth_26
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 182
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c54466678a4ec8880800000000000000
+      internalID: -8607253375619808164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossHealth_27
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 250
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca75b3b6e4816dd50800000000000000
+      internalID: 6761618615628945324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossHealth_28
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 238
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec547d54ba05d88a0800000000000000
+      internalID: -6301291607080090162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossHealth_29
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 216
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dadd8ce97a5f67ca0800000000000000
+      internalID: -6019353751661781587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossHealth_30
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 220
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f12b62138398840800000000000000
+      internalID: 5226770626293931845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossHealth_31
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 225
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18d28823467bb58d0800000000000000
+      internalID: -2856487897664049791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossHealth_32
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 218
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b86bcbb5bbd7a6d0800000000000000
+      internalID: -2979171054896060235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossHealth_33
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 215
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee786a820296d2ec0800000000000000
+      internalID: -3590097741102544914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossHealth_34
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 197
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a45939bdc65548810800000000000000
+      internalID: 1766630879864788298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossHealth_35
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 202
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e84251453f3476350800000000000000
+      internalID: 6009846940116001934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossHealth_36
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 194
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 228f75e6b35b138a0800000000000000
+      internalID: -6327076734619879390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossHealth_37
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 202
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30eca9dd32c3d5d10800000000000000
+      internalID: 2115913524673433091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossHealth_38
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 178
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1bafd3e73aa26480800000000000000
+      internalID: -8907369955962410212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossHealth_39
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 168
+        width: 38
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16c8f883f7666a5f0800000000000000
+      internalID: -745795991687426975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossHealth_40
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 189
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7702b610d71839e10800000000000000
+      internalID: 2203247016608997495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossHealth_41
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 186
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92fd194658d007660800000000000000
+      internalID: 7381414655829335849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossHealth_42
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 133
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d435028ee540210800000000000000
+      internalID: 1298266943657299287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossHealth_43
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 170
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27e91717418f12d60800000000000000
+      internalID: 7863839191051902578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossHealth_44
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 142
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e999531c0eacff050800000000000000
+      internalID: 5836606708758452638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossHealth_45
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 152
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f2209293c8403f0800000000000000
+      internalID: -935468645457186985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossHealth_46
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 163
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d06c83f77b1b61610800000000000000
+      internalID: 1591654919993607693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossHealth_47
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 144
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f7fbdd9c541d7560800000000000000
+      internalID: 7313023757937539063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossHealth_48
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 133
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff972f592ec61bc00800000000000000
+      internalID: 914631919767026175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossHealth_49
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 76
+        width: 112
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e60fb93bc3ae6580800000000000000
+      internalID: -8831941725984454940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossHealth_50
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 107
+        width: 49
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f2b669d4f26167f0800000000000000
+      internalID: -621106469841489159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossHealth_51
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 118
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8633fd2c9810203c0800000000000000
+      internalID: -4394948595168627864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossHealth_52
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 85
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43fefe7f07ccc53b0800000000000000
+      internalID: -5522314257494970572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
