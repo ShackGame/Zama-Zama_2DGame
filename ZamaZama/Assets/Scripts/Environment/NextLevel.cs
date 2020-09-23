@@ -20,6 +20,13 @@ public class NextLevel : MonoBehaviour
     {
         StartCoroutine(LoadLevel());
     }
+    
+    public void OnButtonMenu()
+    {
+        Time.timeScale = 1f;
+        StartCoroutine(LoadLevel());
+
+    }
 
     IEnumerator LoadLevel()
     {
