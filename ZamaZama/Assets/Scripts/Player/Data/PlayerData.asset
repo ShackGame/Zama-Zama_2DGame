@@ -19,7 +19,7 @@ MonoBehaviour:
     type: 3}
   deathChukParticle: {fileID: 1379933732070060463, guid: a070f193ecb5ca04087e5a581fda64e1,
     type: 3}
-  movementVelocity: 10
+  movementVelocity: 8
   meleeAtackRadius: 0.3
   whatIsEnemy:
     serializedVersion: 2
@@ -38,3 +38,4 @@ MonoBehaviour:
   whatIsGround:
     serializedVersion: 2
     m_Bits: 256
+  isDead: 0

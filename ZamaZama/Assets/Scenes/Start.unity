@@ -714,6 +714,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: EndOfLevel
       objectReference: {fileID: 0}
+    - target: {fileID: 505403966345335889, guid: e3afcbee0bf44434787569699f11f591,
+        type: 3}
+      propertyPath: nextSceneAddress
+      value: Level 1
+      objectReference: {fileID: 0}
     - target: {fileID: 505403966345335895, guid: e3afcbee0bf44434787569699f11f591,
         type: 3}
       propertyPath: m_LocalPosition.x
