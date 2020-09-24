@@ -43,6 +43,16 @@ public class MainMenuController : MonoBehaviour
         if (isDead)
         {
             isDead = false;
+            StartCoroutine(DeathWaitPeriod());
+        }
+    }
+    IEnumerator DeathWaitPeriod()
+    {
+        yield return new WaitForSeconds(2f);
+
+        //if (isDead)
+        //{
+            //isDead = false;
             gameOverUI.SetActive(true);
             health.SetActive(false);
             health1.SetActive(false);
@@ -56,9 +66,7 @@ public class MainMenuController : MonoBehaviour
             melee1.SetActive(false);
             melee2.SetActive(false);
             scoreTxt.SetActive(false);
-
-
-        }
+        //}
     }
 
     public void Revive()

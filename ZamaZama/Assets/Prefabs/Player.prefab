@@ -171,7 +171,7 @@ MonoBehaviour:
   dustPuff: {fileID: 661788622785719290, guid: aa88ebbf68760be4a9d2ebceb5bd3840, type: 3}
   jumpEffect: {fileID: 8345390109258660992, guid: 9fe63a86e02eb1b4dbd34a0026a91b09,
     type: 3}
-  gameOverUI: {fileID: 5574500535103658942, guid: 71d46ac78e41d1a4ba24e18b5c4a8918,
+  healingEffect: {fileID: 6468821766495343015, guid: 3f9ea151515529549ab76df13d1dfdcc,
     type: 3}
 --- !u!114 &8668961548359350690
 MonoBehaviour:

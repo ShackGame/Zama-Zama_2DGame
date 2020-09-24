@@ -43,6 +43,8 @@ public class Player : MonoBehaviour
     public GameObject dustPuff;
     public GameObject jumpEffect;
 
+    public GameObject healingEffect;
+
     #endregion
 
     #region Other Variables
@@ -94,6 +96,12 @@ public class Player : MonoBehaviour
     {
         CurrentVelocity = RB.velocity;
         StateMachine.CurrentState.LogicUpdate();
+
+        if (HealthPickUp.SpawnHealingEffect)
+        {
+            HealthPickUp.SpawnHealingEffect = false;
+            Instantiate(healingEffect, jumpEffectPos);
+        }
     }
 
     private void FixedUpdate()
@@ -156,6 +164,7 @@ public class Player : MonoBehaviour
     #endregion
 
     #region Other Functions
+   
     public Vector2 DetermineCornerPosition()
     {
         RaycastHit2D xHit = Physics2D.Raycast(wallCheck.position, Vector2.right * FacingDirection, playerData.wallCheckDistance, playerData.whatIsGround);

@@ -44,4 +44,5 @@ public class PlayerData : ScriptableObject
 
     [Header("Game-Over Variable")]
     public bool isDead = false;
+    public float waitTime = 1f;
 }

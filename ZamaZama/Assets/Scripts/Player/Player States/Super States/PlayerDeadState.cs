@@ -16,7 +16,10 @@ public class PlayerDeadState : PlayerState
         GameObject.Instantiate(playerData.deathChukParticle, player.transform.position, playerData.deathChukParticle.transform.rotation);
 
         MainMenuController.isDead = true;
-        
+
         GameObject.Destroy(player.gameObject);
+
     }
+
+
 }
