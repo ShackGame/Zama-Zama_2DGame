@@ -13,6 +13,8 @@ public class PlayerInputHandler : MonoBehaviour
     public bool GrabInput { get; private set; }
     public bool MeleeInput { get; private set; }
     public bool MeleeInputStop { get; private set; }
+    public bool ShootInput { get; private set; }
+    public bool ShootInputStop { get; private set; }
 
 
     [SerializeField]
@@ -77,6 +79,22 @@ public class PlayerInputHandler : MonoBehaviour
             MeleeInputStop = true;
         }
     }
+
+    public void OnShootInput(InputAction.CallbackContext context)
+    {
+        if (context.started)
+        {
+            ShootInput = true;
+            ShootInputStop = false;
+
+        }
+
+        if (context.canceled)
+        {
+            ShootInputStop = true;
+        }
+    }
+
     public void OnGrabInput(InputAction.CallbackContext context)
     {
         if (context.started)
@@ -93,6 +111,8 @@ public class PlayerInputHandler : MonoBehaviour
     public void UseJumpInput() => JumpInput = false;
 
     public void UseMeleeInput() => MeleeInput = false;
+
+    public void UseShootInput() => ShootInput = false;
 
     private void CheckJumpInputHoldTime()
     {

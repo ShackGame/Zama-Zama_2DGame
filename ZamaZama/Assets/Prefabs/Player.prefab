@@ -1,5 +1,35 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1503919710107224673
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7643677061669360470}
+  m_Layer: 10
+  m_Name: BulletSpawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7643677061669360470
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1503919710107224673}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8668961548359350693}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8668961548359350683
 GameObject:
   m_ObjectHideFlags: 0
@@ -40,6 +70,7 @@ Transform:
   - {fileID: 8668961548553609006}
   - {fileID: 8668961548734856576}
   - {fileID: 8668961549363811979}
+  - {fileID: 7643677061669360470}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -173,6 +204,7 @@ MonoBehaviour:
     type: 3}
   healingEffect: {fileID: 6468821766495343015, guid: 3f9ea151515529549ab76df13d1dfdcc,
     type: 3}
+  attackPosition: {fileID: 7643677061669360470}
 --- !u!114 &8668961548359350690
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -269,6 +301,21 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: e4ac135a-8d6a-485b-9801-4bd08fae3243
     m_ActionName: Gameplay/Melee[/Keyboard/k,/XInputControllerWindows/buttonEast]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8668961548359350691}
+        m_MethodName: OnShootInput
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: a611d478-f42b-437b-8f90-9ba7df7bc42c
+    m_ActionName: Gameplay/Shoot[/Keyboard/l]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Gameplay

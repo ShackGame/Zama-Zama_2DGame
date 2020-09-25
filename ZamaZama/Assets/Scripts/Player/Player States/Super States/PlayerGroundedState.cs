@@ -12,6 +12,7 @@ public class PlayerGroundedState : PlayerState
     private bool isGrounded;
     private bool isTouchingWall;
     private bool MeleeInput;
+    private bool ShootInput;
 
     public PlayerGroundedState(Player player, PlayerStateMachine stateMachine, PlayerData playerData, string animBoolName) : base(player, stateMachine, playerData, animBoolName)
     {
@@ -45,6 +46,7 @@ public class PlayerGroundedState : PlayerState
         JumpInput = player.InputHandler.JumpInput;
         grabInput = player.InputHandler.GrabInput;
         MeleeInput = player.InputHandler.MeleeInput;
+        ShootInput = player.InputHandler.ShootInput;
 
         if (JumpInput && player.JumpState.CanJump())
         {           
@@ -54,6 +56,10 @@ public class PlayerGroundedState : PlayerState
         else if (MeleeInput && player.InputHandler.NormInputX == 0)
         {
             stateMachine.ChangeState(player.MeleeState);                   
+        }
+        else if (ShootInput && player.InputHandler.NormInputX == 0)
+        {
+            stateMachine.ChangeState(player.RangedAttackState);
         }
         else if (!isGrounded)
         {

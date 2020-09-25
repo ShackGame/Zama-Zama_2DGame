@@ -4162,11 +4162,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 8668961548359350682, guid: 2e804457df0997946973f1728062bd14,
+    - target: {fileID: 7643677061669360470, guid: 2e804457df0997946973f1728062bd14,
         type: 3}
-      propertyPath: respawn
-      value: 
-      objectReference: {fileID: 978894011}
+      propertyPath: m_LocalPosition.x
+      value: 0.307
+      objectReference: {fileID: 0}
+    - target: {fileID: 7643677061669360470, guid: 2e804457df0997946973f1728062bd14,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.06
+      objectReference: {fileID: 0}
     - target: {fileID: 8668961548359350683, guid: 2e804457df0997946973f1728062bd14,
         type: 3}
       propertyPath: m_Name

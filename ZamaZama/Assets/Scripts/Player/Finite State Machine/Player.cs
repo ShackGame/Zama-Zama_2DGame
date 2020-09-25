@@ -17,6 +17,7 @@ public class Player : MonoBehaviour
     public PlayerMeleeState MeleeState { get; private set; }
     public PlayerDeadState DeadState { get; private set; }
     public PlayerLedgeClimbState LedgeClimbState { get; private set; }
+    public PlayerRangedAttackState RangedAttackState { get; private set; }
 
     [SerializeField]
     private PlayerData playerData;
@@ -44,6 +45,8 @@ public class Player : MonoBehaviour
     public GameObject jumpEffect;
 
     public GameObject healingEffect;
+
+    public Transform attackPosition;
 
     #endregion
 
@@ -74,6 +77,8 @@ public class Player : MonoBehaviour
         MeleeState = new PlayerMeleeState(this, StateMachine, playerData, "melee1");
         DeadState = new PlayerDeadState(this, StateMachine, playerData, "dead");
         LedgeClimbState = new PlayerLedgeClimbState(this, StateMachine, playerData, "ledgeClimbState");
+        RangedAttackState = new PlayerRangedAttackState(this, StateMachine, playerData, "shoot");
+
     }
 
     private void Start()
@@ -208,6 +213,7 @@ public class Player : MonoBehaviour
     private void OnDrawGizmos()
     {
         Gizmos.DrawWireSphere(groundCheck.position, playerData.groundCheckRadius);
+        Gizmos.DrawWireSphere(attackPosition.position, playerData.bulletPosRadius);
         Gizmos.DrawWireSphere(meleePosition.position, playerData.meleeAtackRadius);
         Gizmos.DrawLine(wallCheck.position, new Vector2(wallCheck.position.x + playerData.wallCheckDistance, wallCheck.position.y));
         Gizmos.DrawLine(ledgeCheck.position, new Vector2(ledgeCheck.position.x + playerData.wallCheckDistance, ledgeCheck.position.y));
