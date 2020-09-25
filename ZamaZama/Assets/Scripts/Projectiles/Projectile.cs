@@ -25,6 +25,8 @@ public class Projectile : MonoBehaviour
     [SerializeField]
     private LayerMask whatIsPlayer;
     [SerializeField]
+    private LayerMask whatIsEnemy;
+    [SerializeField]
     private Transform damagePosition;
 
     private void Start()
@@ -58,6 +60,7 @@ public class Projectile : MonoBehaviour
         if (!hasHitGround)
         {
             Collider2D damageHit = Physics2D.OverlapCircle(damagePosition.position, damageRadius, whatIsPlayer);
+            Collider2D enemyHit = Physics2D.OverlapCircle(damagePosition.position, damageRadius, whatIsEnemy);
             Collider2D groundHit = Physics2D.OverlapCircle(damagePosition.position, damageRadius, whatIsGround);
 
             if (damageHit)
@@ -66,13 +69,20 @@ public class Projectile : MonoBehaviour
                 Destroy(gameObject);
             }
 
+            if (enemyHit)
+            {
+                damageHit.transform.SendMessage("Damage", attackDetails);
+                Destroy(gameObject);
+            }
+
             if (groundHit)
             {
-                Destroy(gameObject);
+               
                 hasHitGround = true;
                 rb.gravityScale = 0f;
                 rb.velocity = Vector2.zero;
-                
+                //Destroy(gameObject);
+
             }
 
 

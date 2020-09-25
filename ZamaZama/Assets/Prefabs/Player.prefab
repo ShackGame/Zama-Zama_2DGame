@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1503919710107224673}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.307, y: -0.06, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8668961548359350693}
@@ -203,6 +203,10 @@ MonoBehaviour:
   jumpEffect: {fileID: 8345390109258660992, guid: 9fe63a86e02eb1b4dbd34a0026a91b09,
     type: 3}
   healingEffect: {fileID: 6468821766495343015, guid: 3f9ea151515529549ab76df13d1dfdcc,
+    type: 3}
+  projectile: {fileID: 4676192510470881078, guid: 5987637e9ecb3b14aa91cd5b7c02a350,
+    type: 3}
+  projectileScript: {fileID: 4691104439514092666, guid: 5987637e9ecb3b14aa91cd5b7c02a350,
     type: 3}
   attackPosition: {fileID: 7643677061669360470}
 --- !u!114 &8668961548359350690

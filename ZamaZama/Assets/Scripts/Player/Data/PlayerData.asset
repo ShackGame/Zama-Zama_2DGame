@@ -40,9 +40,11 @@ MonoBehaviour:
     m_Bits: 256
   isDead: 0
   waitTime: 1
-  projectile: {fileID: 0}
-  projectileScript: {fileID: 0}
+  projectile: {fileID: 8300415607417471278, guid: 4a9cc4b8e603ad9459a394b101253e8e,
+    type: 3}
+  projectileScript: {fileID: 8300415607417471279, guid: 4a9cc4b8e603ad9459a394b101253e8e,
+    type: 3}
   bulletPosRadius: 0.02
   projectileDamage: 20
   projectileSpeed: 12
-  projectileTravelDistance: 0
+  projectileTravelDistance: 15

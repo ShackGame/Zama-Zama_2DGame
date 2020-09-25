@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerRangedAttackState : PlayerAbilityState
 {
-    
+    AttackDetails attackDetails;
     public PlayerRangedAttackState(Player player, PlayerStateMachine stateMachine, PlayerData playerData, string animBoolName) : base(player, stateMachine, playerData, animBoolName)
     {
 
@@ -14,16 +14,27 @@ public class PlayerRangedAttackState : PlayerAbilityState
     {
         base.AnimationFinishTrigger();
 
-        stateMachine.ChangeState(player.IdleState);
+        if (player.InputHandler.NormInputX != 0)
+        {
+
+            stateMachine.ChangeState(player.MoveState);
+        }
+        else
+        {
+
+            stateMachine.ChangeState(player.IdleState);
+        }
+
+
     }
 
     public override void AnimationTrigger()
     {
         base.AnimationTrigger();
 
-        playerData.projectile = GameObject.Instantiate(playerData.projectile, player.attackPosition.position, player.attackPosition.rotation);
-        playerData.projectileScript = playerData.projectile.GetComponent<PlayerProjectile>();
-        playerData.projectileScript.FireProjectile(playerData.projectileSpeed, playerData.projectileTravelDistance, playerData.projectileDamage);
+        player.projectile = GameObject.Instantiate(player.projectile, player.attackPosition.position, player.attackPosition.rotation);
+        player.projectileScript = player.projectile.GetComponent<Projectile>();
+        player.projectileScript.FireProjectile(playerData.projectileSpeed, playerData.projectileTravelDistance, playerData.projectileDamage);
     }
 
     public override void DoChecks()
@@ -34,6 +45,8 @@ public class PlayerRangedAttackState : PlayerAbilityState
     public override void Enter()
     {
         base.Enter();
+
+        player.InputHandler.UseShootInput();
     }
 
     public override void Exit()

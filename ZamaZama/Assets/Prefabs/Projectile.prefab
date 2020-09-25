@@ -101,7 +101,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1797834995
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 2
   m_Sprite: {fileID: -4112098412181525165, guid: bd1308c59f789ec4ebe0c339e35db409,
     type: 3}
@@ -135,6 +135,9 @@ MonoBehaviour:
   whatIsPlayer:
     serializedVersion: 2
     m_Bits: 1024
+  whatIsEnemy:
+    serializedVersion: 2
+    m_Bits: 512
   damagePosition: {fileID: 2504466708735162901}
 --- !u!50 &6471430557153499282
 Rigidbody2D:
