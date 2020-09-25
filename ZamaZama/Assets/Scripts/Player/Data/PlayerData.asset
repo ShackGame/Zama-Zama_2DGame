@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9582442acb8b36b49bea7b483c941553, type: 3}
   m_Name: PlayerData
   m_EditorClassIdentifier: 
-  maxHealth: 50
+  maxHealth: 5
   hitParticle: {fileID: 1960066643687054105, guid: 111cca998cae0054b9d70de609ad58c6,
     type: 3}
   deathBloodParticle: {fileID: 4303715706368892598, guid: b2cbe275cded69142b792f8b406200b0,
@@ -39,3 +39,4 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   isDead: 0
+  waitTime: 1

@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class PlayerStats : MonoBehaviour
 {
-    public int numberOfHearts;
+    private int numberOfHearts = 5;
 
     public Image[] hearts;
     public Sprite fullHeart;

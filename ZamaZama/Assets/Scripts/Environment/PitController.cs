@@ -6,7 +6,7 @@ public class PitController : MonoBehaviour
 {
     AttackDetails attackDetails;
 
-    private float dmageAmountPit = 50f;
+    private float dmageAmountPit = 5f;
 
     private void Start()
     {
