@@ -13,14 +13,18 @@ public class PlayerStats : MonoBehaviour
     public Sprite emptyHeart;
 
     public TMP_Text scoreTxt;
+    public GameObject coin;
+
 
     private void Start()
     {
         GameManager.Health = 5f;
+        
     }
     private void Update()
     {
-        scoreTxt.text = "Score: " + GameManager.Score;
+        scoreTxt.text = " " + GameManager.Score;
+        
 
         if(GameManager.Health > numberOfHearts)
         {

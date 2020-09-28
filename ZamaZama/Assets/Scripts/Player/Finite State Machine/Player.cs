@@ -46,8 +46,6 @@ public class Player : MonoBehaviour
 
     public GameObject healingEffect;
 
-    public GameObject projectile;
-    public Projectile projectileScript;
     public Transform attackPosition;
 
     #endregion

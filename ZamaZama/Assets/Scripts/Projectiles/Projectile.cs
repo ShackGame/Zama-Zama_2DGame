@@ -13,7 +13,7 @@ public class Projectile : MonoBehaviour
     [SerializeField]
     private float gravity;
     [SerializeField]
-    private float damageRadius;
+    private float damageRadius = 0.2f;
 
     private Rigidbody2D rb;
 
@@ -66,23 +66,21 @@ public class Projectile : MonoBehaviour
             if (damageHit)
             {
                 damageHit.transform.SendMessage("Damage", attackDetails);
-                Destroy(gameObject);
+                gameObject.SetActive(false);
             }
 
             if (enemyHit)
             {
                 damageHit.transform.SendMessage("Damage", attackDetails);
-                Destroy(gameObject);
+                gameObject.SetActive(false);
             }
 
             if (groundHit)
             {
-               
+                gameObject.SetActive(false);
                 hasHitGround = true;
                 rb.gravityScale = 0f;
-                rb.velocity = Vector2.zero;
-                //Destroy(gameObject);
-
+                rb.velocity = Vector2.zero;             
             }
 
 

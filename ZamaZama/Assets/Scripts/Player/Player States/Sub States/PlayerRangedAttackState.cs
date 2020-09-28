@@ -5,6 +5,8 @@ using UnityEngine;
 public class PlayerRangedAttackState : PlayerAbilityState
 {
     AttackDetails attackDetails;
+    
+
     public PlayerRangedAttackState(Player player, PlayerStateMachine stateMachine, PlayerData playerData, string animBoolName) : base(player, stateMachine, playerData, animBoolName)
     {
 
@@ -32,9 +34,15 @@ public class PlayerRangedAttackState : PlayerAbilityState
     {
         base.AnimationTrigger();
 
-        player.projectile = GameObject.Instantiate(player.projectile, player.attackPosition.position, player.attackPosition.rotation);
-        player.projectileScript = player.projectile.GetComponent<Projectile>();
-        player.projectileScript.FireProjectile(playerData.projectileSpeed, playerData.projectileTravelDistance, playerData.projectileDamage);
+        GameObject bullet = BulletPool.SharedInstance.GetPooledBullet();
+
+        if(bullet != null)
+        {
+            bullet.transform.position = player.attackPosition.position;
+            bullet.transform.rotation = player.attackPosition.rotation;
+            bullet.GetComponent<Projectile>().FireProjectile(playerData.projectileSpeed, playerData.projectileTravelDistance, playerData.projectileDamage);
+            bullet.SetActive(true);
+        }              
     }
 
     public override void DoChecks()

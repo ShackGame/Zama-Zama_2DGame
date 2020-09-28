@@ -204,10 +204,7 @@ MonoBehaviour:
     type: 3}
   healingEffect: {fileID: 6468821766495343015, guid: 3f9ea151515529549ab76df13d1dfdcc,
     type: 3}
-  projectile: {fileID: 4676192510470881078, guid: 5987637e9ecb3b14aa91cd5b7c02a350,
-    type: 3}
-  projectileScript: {fileID: 4691104439514092666, guid: 5987637e9ecb3b14aa91cd5b7c02a350,
-    type: 3}
+  projectileScript: {fileID: 0}
   attackPosition: {fileID: 7643677061669360470}
 --- !u!114 &8668961548359350690
 MonoBehaviour:

@@ -62,7 +62,7 @@ public class MainMenuController : MonoBehaviour
             jumpBtn.SetActive(false);
             melee1.SetActive(false);
             melee2.SetActive(false);
-            scoreTxt.SetActive(false);
+            //scoreTxt.SetActive(false);
        
     }
 
@@ -84,7 +84,7 @@ public class MainMenuController : MonoBehaviour
             jumpBtn.SetActive(true);
             melee1.SetActive(true);
             melee2.SetActive(true);
-            scoreTxt.SetActive(true);
+            //scoreTxt.SetActive(true);
         }
         else
         {

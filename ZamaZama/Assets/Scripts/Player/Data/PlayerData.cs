@@ -47,11 +47,10 @@ public class PlayerData : ScriptableObject
     public float waitTime = 1f;
 
     [Header("Shoot Variables")]
-    
-    public float bulletPosRadius = 0.1f;
-    public float projectileDamage = 20f;
+    public float bulletPosRadius = 0.05f;
+    public Projectile projectileScript;
+    public float projectileDamage = 10f;
     public float projectileSpeed = 12f;
     public float projectileTravelDistance;
-    
 
 }
