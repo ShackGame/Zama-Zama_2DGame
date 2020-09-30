@@ -41,7 +41,7 @@ MonoBehaviour:
   isDead: 0
   waitTime: 1
   bulletPosRadius: 0.02
-  projectileScript: {fileID: 4691104439514092666, guid: 5987637e9ecb3b14aa91cd5b7c02a350,
+  projectile: {fileID: 4691104439514092666, guid: 5987637e9ecb3b14aa91cd5b7c02a350,
     type: 3}
   projectileDamage: 20
   projectileSpeed: 15

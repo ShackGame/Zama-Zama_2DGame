@@ -31,6 +31,7 @@ public class Projectile : MonoBehaviour
 
     private void Start()
     {
+
         rb = GetComponent<Rigidbody2D>();
 
         rb.gravityScale = 0.0f;
@@ -66,14 +67,14 @@ public class Projectile : MonoBehaviour
             if (damageHit)
             {
                 damageHit.transform.SendMessage("Damage", attackDetails);
-                gameObject.SetActive(false);
+                Destroy(gameObject);
             }
 
-            if (enemyHit)
-            {
-                damageHit.transform.SendMessage("Damage", attackDetails);
-                gameObject.SetActive(false);
-            }
+            //if (enemyHit)
+            //{
+            //    //damageHit.transform.SendMessage("Damage", attackDetails);
+            //    gameObject.SetActive(false);
+            //}
 
             if (groundHit)
             {

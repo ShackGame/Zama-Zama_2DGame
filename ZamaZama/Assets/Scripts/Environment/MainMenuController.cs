@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
+using UnityEngine.Events;
+using GoogleMobileAds.Api;
+using GoogleMobileAds.Placement;
 using UnityEngine.SceneManagement;
 
 public class MainMenuController : MonoBehaviour
@@ -15,6 +18,9 @@ public class MainMenuController : MonoBehaviour
 
     private float reviveCost = 150f;
     private float waitPeriod = 2f;
+
+    InterstitialAdGameObject interstitialAd;
+
 
     public GameObject
         health,
@@ -36,6 +42,13 @@ public class MainMenuController : MonoBehaviour
         respawn = GameObject.FindGameObjectWithTag("PS").GetComponent<Respawner>();
         gameOverUI.SetActive(false);
         noCoins.SetActive(false);
+
+        interstitialAd = MobileAds.Instance
+            .GetAd<InterstitialAdGameObject>("Interstitial Ad");
+
+        MobileAds.Initialize((initStatus) => {
+            Debug.Log("Initialized MobileAds");
+        });
     }
 
     private void Update()
@@ -43,6 +56,7 @@ public class MainMenuController : MonoBehaviour
         if (isDead)
         {
             isDead = false;
+                 
             StartCoroutine(DeathWaitPeriod());
         }
     }
@@ -50,7 +64,8 @@ public class MainMenuController : MonoBehaviour
     {
         yield return new WaitForSeconds(2f);
 
-            gameOverUI.SetActive(true);
+   
+        gameOverUI.SetActive(true);
             health.SetActive(false);
             health1.SetActive(false);
             health2.SetActive(false);
@@ -103,6 +118,11 @@ public class MainMenuController : MonoBehaviour
     {
         yield return new WaitForSeconds(waitPeriod);
         noCoins.SetActive(false);
+    }
+
+    public void GetCoins()
+    {
+        interstitialAd.ShowIfLoaded();
     }
 
    

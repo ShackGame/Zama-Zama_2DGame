@@ -21,7 +21,8 @@ public class BulletPool : MonoBehaviour
         for (int i = 0; i < amountToPool; i++)
         {
             tmp = Instantiate(bullet);
-            tmp.SetActive(false);   pooledObjects.Add(tmp);
+            tmp.SetActive(false);
+            pooledObjects.Add(tmp);
         }
     }
 

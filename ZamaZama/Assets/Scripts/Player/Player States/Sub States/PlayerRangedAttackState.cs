@@ -36,13 +36,14 @@ public class PlayerRangedAttackState : PlayerAbilityState
 
         GameObject bullet = BulletPool.SharedInstance.GetPooledBullet();
 
-        if(bullet != null)
+        if (bullet != null)
         {
-            bullet.transform.position = player.attackPosition.position;
-            bullet.transform.rotation = player.attackPosition.rotation;
-            bullet.GetComponent<Projectile>().FireProjectile(playerData.projectileSpeed, playerData.projectileTravelDistance, playerData.projectileDamage);
+            bullet.transform.position = player.bulletPos.position;
+            bullet.transform.rotation = player.bulletPos.rotation;
             bullet.SetActive(true);
-        }              
+            
+        }
+        bullet.GetComponent<Projectile>().FireProjectile(playerData.projectileSpeed, playerData.projectileTravelDistance, playerData.projectileDamage);
     }
 
     public override void DoChecks()

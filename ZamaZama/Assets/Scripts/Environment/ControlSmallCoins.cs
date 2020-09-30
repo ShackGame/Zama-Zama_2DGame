@@ -12,8 +12,8 @@ public class ControlSmallCoins : MonoBehaviour
 
     private void Start()
     {
-        LeanTween.moveLocalY(gameObject, transitionTo, 3).setEaseInOutSine().setLoopPingPong();
-        LeanTween.rotateY(gameObject, 90, 3).setEaseInOutSine().setLoopPingPong();
+        LeanTween.moveLocalY(gameObject, transitionTo, 5).setEaseInOutSine().setLoopPingPong();
+        LeanTween.rotateY(gameObject, 50, 3).setEaseInOutSine().setLoopPingPong();
     }
         
     private void OnTriggerEnter2D(Collider2D collision)

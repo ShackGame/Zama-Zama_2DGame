@@ -48,7 +48,7 @@ public class PlayerData : ScriptableObject
 
     [Header("Shoot Variables")]
     public float bulletPosRadius = 0.05f;
-    public Projectile projectileScript;
+    public Projectile projectile;
     public float projectileDamage = 10f;
     public float projectileSpeed = 12f;
     public float projectileTravelDistance;
