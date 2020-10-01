@@ -33,9 +33,10 @@ public class MainMenuController : MonoBehaviour
         rightBtn,
         jumpBtn,
         melee1,
-        melee2,
+        getFreeCoinsBtn,
         pauseBtn,
-        noCoins;
+        noCoins,
+        coinIcon;
 
     private void Start()
     {
@@ -49,6 +50,8 @@ public class MainMenuController : MonoBehaviour
         MobileAds.Initialize((initStatus) => {
             Debug.Log("Initialized MobileAds");
         });
+
+        getFreeCoinsBtn.SetActive(false);
     }
 
     private void Update()
@@ -64,8 +67,10 @@ public class MainMenuController : MonoBehaviour
     {
         yield return new WaitForSeconds(2f);
 
-   
-        gameOverUI.SetActive(true);
+        //Show Ad
+        GetCoins();
+
+            gameOverUI.SetActive(true);
             health.SetActive(false);
             health1.SetActive(false);
             health2.SetActive(false);
@@ -76,8 +81,8 @@ public class MainMenuController : MonoBehaviour
             pauseBtn.SetActive(false);
             jumpBtn.SetActive(false);
             melee1.SetActive(false);
-            melee2.SetActive(false);
-            //scoreTxt.SetActive(false);
+            coinIcon.SetActive(false);
+            scoreTxt.SetActive(false);
        
     }
 
@@ -98,8 +103,8 @@ public class MainMenuController : MonoBehaviour
             pauseBtn.SetActive(true);
             jumpBtn.SetActive(true);
             melee1.SetActive(true);
-            melee2.SetActive(true);
-            //scoreTxt.SetActive(true);
+            //melee2.SetActive(true);
+            scoreTxt.SetActive(true);
         }
         else
         {

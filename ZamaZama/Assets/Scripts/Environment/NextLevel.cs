@@ -1,4 +1,6 @@
-﻿using System.Collections;
+﻿using GoogleMobileAds.Api;
+using GoogleMobileAds.Placement;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
@@ -11,6 +13,14 @@ public class NextLevel : MonoBehaviour
 
     public float transtionTime = 2f;
 
+    InterstitialAdGameObject interstitialAd;
+
+    private void Start()
+    {
+
+        interstitialAd = MobileAds.Instance
+          .GetAd<InterstitialAdGameObject>("Interstitial Ad");
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         StartCoroutine(LoadLevel());
@@ -34,6 +44,7 @@ public class NextLevel : MonoBehaviour
 
         yield return new WaitForSeconds(transtionTime);
 
+        interstitialAd.ShowIfLoaded();
         Addressables.LoadSceneAsync(nextSceneAddress);
     }
 

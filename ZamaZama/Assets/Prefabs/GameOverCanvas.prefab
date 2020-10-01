@@ -1531,7 +1531,7 @@ MonoBehaviour:
   rightBtn: {fileID: 0}
   jumpBtn: {fileID: 0}
   melee1: {fileID: 0}
-  melee2: {fileID: 0}
+  getFreeCoinsBtn: {fileID: 0}
   pauseBtn: {fileID: 0}
   noCoins: {fileID: 8510410712433333309}
 --- !u!1 &8510410712433333309
