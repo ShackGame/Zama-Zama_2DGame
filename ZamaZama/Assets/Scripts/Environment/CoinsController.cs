@@ -20,7 +20,7 @@ public class CoinsController : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            GameManager.Score += 5f;
+            GameManager.instance.Score += 5f;
             Instantiate(scoreParticle, gameObject.transform.position, Quaternion.Euler(0.0f, 0.0f, Random.Range(0.0f, 360.0f)));
             Destroy(gameObject);
         }

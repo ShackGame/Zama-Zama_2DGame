@@ -17,22 +17,22 @@ public class PlayerStats : MonoBehaviour
 
     private void Start()
     {
-        GameManager.Health = 5f;
+        GameManager.instance.Health = 5f;
         
     }
     private void Update()
     {
-        scoreTxt.text = " " + GameManager.Score;
+        scoreTxt.text = " " + GameManager.instance.Score;
         
 
-        if(GameManager.Health > numberOfHearts)
+        if(GameManager.instance.Health > numberOfHearts)
         {
-            GameManager.Health = numberOfHearts;
+            GameManager.instance.Health = numberOfHearts;
         }
         for (int i = 0; i < hearts.Length; i++)
         {
 
-            if(i < GameManager.Health)
+            if(i < GameManager.instance.Health)
             {
                 hearts[i].sprite = fullHeart;
             }

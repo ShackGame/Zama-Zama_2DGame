@@ -9,6 +9,6 @@ public class RewardScript : MonoBehaviour
    
     public void OnUserEarnedReward(Reward reward)
    {
-        GameManager.Score += 500f;
+        GameManager.instance.Score += 500f;
    }
 }

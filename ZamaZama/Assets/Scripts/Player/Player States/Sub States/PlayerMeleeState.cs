@@ -34,7 +34,7 @@ public class PlayerMeleeState : PlayerAbilityState
 
        foreach(Collider2D collider in detectedObjects)
        {
-            GameManager.Score += 10f;
+            GameManager.instance.Score += 10f;
             collider.transform.parent.SendMessage("Damage", attackDetails);
        }
     }

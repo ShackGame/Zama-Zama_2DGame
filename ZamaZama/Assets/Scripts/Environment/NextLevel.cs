@@ -34,6 +34,7 @@ public class NextLevel : MonoBehaviour
     public void OnButtonMenu()
     {
         Time.timeScale = 1f;
+        GameManager.instance.Save();
         StartCoroutine(LoadLevel());
 
     }

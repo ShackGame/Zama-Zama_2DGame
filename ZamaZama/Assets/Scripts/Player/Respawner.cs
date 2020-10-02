@@ -38,7 +38,7 @@ public class Respawner : MonoBehaviour
     {
         if (Time.time >= respawnTimeStart + respawnTime && respawn)
         {
-            GameManager.Health = 5f;
+            GameManager.instance.Health = 5f;
             var playerTemp = Instantiate(player);
             CVC.m_Follow = playerTemp.transform;
             respawn = false;

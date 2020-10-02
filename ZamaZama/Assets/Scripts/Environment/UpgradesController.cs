@@ -9,20 +9,20 @@ public class UpgradesController : MonoBehaviour
 
     public void UpgradeHealth()
     {
-        if(GameManager.Score - healthUpgradeCost > 0)
+        if(GameManager.instance.Score - healthUpgradeCost > 0)
         {
-            GameManager.Score -= healthUpgradeCost;
-            GameManager.Health += 2f;
+            GameManager.instance.Score -= healthUpgradeCost;
+            GameManager.instance.Health += 2f;
             HealthPickUp.SpawnHealingEffect = true;
         }
     }
 
     public void UpgradeBullets()
     {
-        if (GameManager.Score - bulletsUpgradeCost > 0)
+        if (GameManager.instance.Score - bulletsUpgradeCost > 0)
         {
-            GameManager.Score -= bulletsUpgradeCost;
-            GameManager.Health += 5f;
+            GameManager.instance.Score -= bulletsUpgradeCost;
+            GameManager.instance.Health += 5f;
         }
     }
 }

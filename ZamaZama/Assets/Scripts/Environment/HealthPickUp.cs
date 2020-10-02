@@ -10,7 +10,7 @@ public class HealthPickUp : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            GameManager.Health += 2f;
+            GameManager.instance.Health += 2f;
             SpawnHealingEffect = true;
             Destroy(gameObject);
         }

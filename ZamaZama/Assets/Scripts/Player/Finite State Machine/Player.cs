@@ -189,12 +189,12 @@ public class Player : MonoBehaviour
     {
 
         
-        GameManager.Health -= attackdetails.damageAmount;
+        GameManager.instance.Health -= attackdetails.damageAmount;
 
         Instantiate(playerData.hitParticle, RB.transform.position, Quaternion.Euler(0f, 0f, Random.Range(0f, 360f)));
         
 
-        if (GameManager.Health <= 0)
+        if (GameManager.instance.Health <= 0)
         { 
             StateMachine.ChangeState(DeadState);
         }

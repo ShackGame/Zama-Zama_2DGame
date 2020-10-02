@@ -88,9 +88,9 @@ public class MainMenuController : MonoBehaviour
 
     public void Revive()
     {
-        if(GameManager.Score - reviveCost >= 0)
+        if(GameManager.instance.Score - reviveCost >= 0)
         {
-            GameManager.Score -= reviveCost;
+            GameManager.instance.Score -= reviveCost;
             respawn.Respawn();
             gameOverUI.SetActive(false);
             health.SetActive(true);
@@ -123,6 +123,11 @@ public class MainMenuController : MonoBehaviour
     {
         yield return new WaitForSeconds(waitPeriod);
         noCoins.SetActive(false);
+    }
+
+    public void LoadMenu()
+    {
+        StartCoroutine(QuitGame.instance.LoadLevel("Start"));
     }
 
     public void GetCoins()
