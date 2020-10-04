@@ -195,7 +195,8 @@ public class Player : MonoBehaviour
         
 
         if (GameManager.instance.Health <= 0)
-        { 
+        {
+            Debug.Log("player is Dead");
             StateMachine.ChangeState(DeadState);
         }
     }
