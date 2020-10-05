@@ -16,6 +16,11 @@ public class QuitGame : MonoBehaviour
 
     public GameObject loadGameUI;
 
+    AudioManager audioManager;
+
+    [SerializeField]
+    private string menuBtn;
+
     private void Awake()
     {
         if (instance == null)
@@ -30,9 +35,16 @@ public class QuitGame : MonoBehaviour
     private void Start()
     {
         loadGameUI.SetActive(false);
+
+        audioManager = AudioManager.instance;
+        if (audioManager == null)
+        {
+            Debug.Log("No AudioManager found");
+        }
     }
     public void OnButtonStart()
     {
+        audioManager.PlaySound(menuBtn);
         StartCoroutine(LoadLevel());
     }
 
@@ -55,6 +67,12 @@ public class QuitGame : MonoBehaviour
     }
     public void ExitGame()
     {
+        audioManager.PlaySound(menuBtn);
         Application.Quit();
+    }
+
+    public void MenuBtnSound()
+    {
+        audioManager.PlaySound(menuBtn);
     }
 }

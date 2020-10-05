@@ -59,7 +59,7 @@ public class Player : MonoBehaviour
     public int FacingDirection { get; private set; }
     private Vector2 workspace;
 
-    private float currentHealth;
+    AudioManager audioManager;
 
     #endregion
 
@@ -96,7 +96,11 @@ public class Player : MonoBehaviour
 
         StateMachine.Initialize(IdleState);
 
-        
+        audioManager = AudioManager.instance;
+        if(audioManager == null)
+        {
+            Debug.Log("No AudioManager found");
+        }
     }
 
     private void Update()

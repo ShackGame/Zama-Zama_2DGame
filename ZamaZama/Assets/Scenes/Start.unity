@@ -214,6 +214,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1349944291}
+        m_MethodName: MenuBtnSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &136287465
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -800,6 +811,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1349944291}
+        m_MethodName: MenuBtnSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &443495543
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -921,6 +943,17 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1349944291}
         m_MethodName: ExitGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1349944291}
+        m_MethodName: MenuBtnSound
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2309,6 +2342,7 @@ MonoBehaviour:
   transition: {fileID: 2216851550180755420}
   transtionTime: 2
   loadGameUI: {fileID: 559409034}
+  menuBtn: Button
 --- !u!1 &1446901183
 GameObject:
   m_ObjectHideFlags: 0
@@ -2854,7 +2888,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1659289668}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1349944291}
+        m_MethodName: MenuBtnSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1659289668
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3604,68 +3649,38 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5420180556612072513, guid: 1fe99dde9460dad489fab564ceb8e994,
         type: 3}
-      propertyPath: sounds.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5420180556612072513, guid: 1fe99dde9460dad489fab564ceb8e994,
-        type: 3}
-      propertyPath: sounds.Array.data[0].name
-      value: Music
-      objectReference: {fileID: 0}
-    - target: {fileID: 5420180556612072513, guid: 1fe99dde9460dad489fab564ceb8e994,
-        type: 3}
       propertyPath: sounds.Array.data[0].volume
-      value: 0.4
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 5420180556612072513, guid: 1fe99dde9460dad489fab564ceb8e994,
         type: 3}
-      propertyPath: sounds.Array.data[0].randomVolume
-      value: 0
+      propertyPath: sounds.Array.data[2].randomVolume
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 5420180556612072513, guid: 1fe99dde9460dad489fab564ceb8e994,
         type: 3}
-      propertyPath: sounds.Array.data[0].randomPitch
-      value: 0
+      propertyPath: sounds.Array.data[2].randomPitch
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 5420180556612072513, guid: 1fe99dde9460dad489fab564ceb8e994,
         type: 3}
-      propertyPath: sounds.Array.data[1].name
-      value: Shoot
+      propertyPath: sounds.Array.data[1].randomVolume
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 5420180556612072513, guid: 1fe99dde9460dad489fab564ceb8e994,
         type: 3}
-      propertyPath: sounds.Array.data[1].clip
-      value: 
-      objectReference: {fileID: 8300000, guid: 2dd0420fee0b3ef47a860fe7802e67aa, type: 3}
-    - target: {fileID: 5420180556612072513, guid: 1fe99dde9460dad489fab564ceb8e994,
-        type: 3}
-      propertyPath: sounds.Array.data[1].volume
-      value: 0.4
+      propertyPath: sounds.Array.data[1].randomPitch
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 5420180556612072513, guid: 1fe99dde9460dad489fab564ceb8e994,
         type: 3}
-      propertyPath: sounds.Array.data[1].pitch
-      value: 1
+      propertyPath: sounds.Array.data[3].randomVolume
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 5420180556612072513, guid: 1fe99dde9460dad489fab564ceb8e994,
         type: 3}
-      propertyPath: sounds.Array.data[2].name
-      value: Melee
-      objectReference: {fileID: 0}
-    - target: {fileID: 5420180556612072513, guid: 1fe99dde9460dad489fab564ceb8e994,
-        type: 3}
-      propertyPath: sounds.Array.data[2].clip
-      value: 
-      objectReference: {fileID: 8300000, guid: 30650deeff96a09418dadc5a734a967a, type: 3}
-    - target: {fileID: 5420180556612072513, guid: 1fe99dde9460dad489fab564ceb8e994,
-        type: 3}
-      propertyPath: sounds.Array.data[2].volume
-      value: 0.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 5420180556612072513, guid: 1fe99dde9460dad489fab564ceb8e994,
-        type: 3}
-      propertyPath: sounds.Array.data[2].pitch
-      value: 1
+      propertyPath: sounds.Array.data[3].randomPitch
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 6061030568837275084, guid: 1fe99dde9460dad489fab564ceb8e994,
         type: 3}

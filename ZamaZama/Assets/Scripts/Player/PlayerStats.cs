@@ -15,10 +15,21 @@ public class PlayerStats : MonoBehaviour
     public TMP_Text scoreTxt;
     public GameObject coin;
 
+    [SerializeField]
+    private string gameBtnSound;
+
+    private AudioManager audioManager;
+
     private void Start()
     {
         GameManager.instance.Health = 5f;
-        
+
+        audioManager = AudioManager.instance;
+        if (audioManager == null)
+        {
+            Debug.Log("No AudioManager found");
+        }
+
     }
     private void Update()
     {
@@ -50,5 +61,10 @@ public class PlayerStats : MonoBehaviour
                 hearts[i].enabled = false;
             }
         }
+    }
+
+    public void OnMenuButtonClick()
+    {
+        audioManager.PlaySound(gameBtnSound);
     }
 }

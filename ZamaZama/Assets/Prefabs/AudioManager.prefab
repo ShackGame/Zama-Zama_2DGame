@@ -44,9 +44,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sounds:
-  - name: GamePlay
+  - name: Music
     clip: {fileID: 8300000, guid: 766eaa920f37a4a41a7100cbae1acc95, type: 3}
-    volume: 0.7
+    volume: 0.4
     pitch: 1
-    randomVolume: 0.1
-    randomPitch: 0.1
+    randomVolume: 0
+    randomPitch: 0
+    loop: 1
+  - name: Shoot
+    clip: {fileID: 8300000, guid: 2dd0420fee0b3ef47a860fe7802e67aa, type: 3}
+    volume: 0.4
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0
+    loop: 0
+  - name: Button
+    clip: {fileID: 8300000, guid: 6e99b7818e4f26a41936c38b40e85f7b, type: 3}
+    volume: 0.4
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0
+    loop: 0
+  - name: Melee
+    clip: {fileID: 8300000, guid: 30650deeff96a09418dadc5a734a967a, type: 3}
+    volume: 0.4
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0
+    loop: 0

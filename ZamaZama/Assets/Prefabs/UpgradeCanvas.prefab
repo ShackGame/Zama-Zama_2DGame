@@ -116,7 +116,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 34.11129, y: -51.581467}
+  m_AnchoredPosition: {x: 34.11129, y: -15}
   m_SizeDelta: {x: 68.22258, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5257801459873293931
@@ -209,6 +209,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 5420180556612072513, guid: 1fe99dde9460dad489fab564ceb8e994,
+          type: 3}
+        m_MethodName: PlaySound
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Button
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &5257801459925459313
@@ -782,6 +794,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 5420180556612072513, guid: 1fe99dde9460dad489fab564ceb8e994,
+          type: 3}
+        m_MethodName: PlaySound
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Button
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &5257801460247145380
 GameObject:
   m_ObjectHideFlags: 0
@@ -1139,7 +1163,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 52.167767, y: -50.782745}
+  m_AnchoredPosition: {x: 52.167767, y: -14.201279}
   m_SizeDelta: {x: 104.33553, y: 28.402557}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5257801461235443321
