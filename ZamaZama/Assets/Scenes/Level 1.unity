@@ -2504,7 +2504,18 @@ MonoBehaviour:
       m_Calls: []
   onAdLeavingApplication:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1491043616}
+        m_MethodName: Save
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!4 &497163805
 Transform:
   m_ObjectHideFlags: 0
@@ -6695,6 +6706,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 7333854554449424272}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1491043616 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 22723260187808242, guid: 5ea75ecb5d5bb254a8156e541a681aca,
+    type: 3}
+  m_PrefabInstance: {fileID: 22723260165620867}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f48a06ece99dc974a82f98ec68030ef9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1499041314 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7003172376250988894, guid: b26af0e5ca38a744e993511f4b08aaab,
@@ -10404,11 +10427,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 505403966357730839}
+      objectReference: {fileID: 258403023}
     - target: {fileID: 5471191059710809321, guid: df645eb5be79c73458533128f0ca9345,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: OnButtonStart
+      value: Restart
       objectReference: {fileID: 0}
     - target: {fileID: 5471191059745456426, guid: df645eb5be79c73458533128f0ca9345,
         type: 3}

@@ -27,6 +27,7 @@ public class PauseMenu : MonoBehaviour
 
     public void QuitGame()
     {
+        GameManager.instance.Save();
         Application.Quit();
     }
 }
