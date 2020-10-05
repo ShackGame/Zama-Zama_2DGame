@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 22723260187808243}
   - component: {fileID: 22723260187808242}
   - component: {fileID: 22723260187808241}
+  - component: {fileID: 2000716249635773690}
   m_Layer: 0
   m_Name: _GameManager
   m_TagString: Untagged
@@ -47,6 +48,8 @@ MonoBehaviour:
   Score: 0
   Health: 5
   level: 0
+  gameplaySoundName: GamePlay
+  loadGameBtn: {fileID: 0}
 --- !u!114 &22723260187808241
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62,3 +65,22 @@ MonoBehaviour:
   pooledObjects: []
   bullet: {fileID: 4676192510470881078, guid: 5987637e9ecb3b14aa91cd5b7c02a350, type: 3}
   amountToPool: 5
+--- !u!114 &2000716249635773690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 22723260187808236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1234103ab40ea04b9a0757c89263ade, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: GamePlay
+    clip: {fileID: 8300000, guid: 766eaa920f37a4a41a7100cbae1acc95, type: 3}
+    volume: 0.7
+    pitch: 1
+    randomVolume: 0.1
+    randomPitch: 0.1

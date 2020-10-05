@@ -13,9 +13,14 @@ public class GameManager : MonoBehaviour
 
     public float Score;
     public float Health = 5f;
+
     public string level;
+    public string gameplaySoundName;
 
     public GameObject loadGameBtn;
+
+    //Cache
+    private AudioManager audioManager;
 
     private void Awake()
     {
@@ -33,6 +38,14 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         loadGameBtn.SetActive(false);
+
+        //caching
+        audioManager = AudioManager.instance;
+
+        if(audioManager == null)
+        {
+            Debug.LogError("No audio manager found in the scene");
+        }
     }
 
     public void Save()
