@@ -12,6 +12,7 @@ public class PlayerLandState : PlayerGroundedState
     {
         base.Enter();
 
+        player.audioManager.PlaySound(player.landSound);
         GameObject.Instantiate(player.dustPuff, player.jumpEffectPos.transform);
     }
 

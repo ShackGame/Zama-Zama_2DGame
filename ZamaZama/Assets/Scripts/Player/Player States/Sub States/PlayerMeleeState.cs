@@ -34,6 +34,7 @@ public class PlayerMeleeState : PlayerAbilityState
 
        foreach(Collider2D collider in detectedObjects)
        {
+            player.audioManager.PlaySound(player.meleeSound);
             GameManager.instance.Score += 10f;
             collider.transform.parent.SendMessage("Damage", attackDetails);
        }
@@ -48,7 +49,7 @@ public class PlayerMeleeState : PlayerAbilityState
     public override void Enter()
     {
         base.Enter();
-
+        
         attackDetails.damageAmount = playerData.damageAmount;
         attackDetails.position = player.transform.position;
 

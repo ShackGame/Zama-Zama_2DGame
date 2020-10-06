@@ -30,6 +30,9 @@ public class Enemy3 : Entity
     [SerializeField]
     private D_DeadState deadStateData;
 
+    public string attackSound;
+    public string moveSound;
+
 
     [SerializeField]
     private Transform meleeAttackPosition;
@@ -48,6 +51,12 @@ public class Enemy3 : Entity
         deadState = new E3_DeadState(this, stateMachine, "dead", deadStateData, this);
 
         stateMachine.Initialize(moveState);
+
+        audioManager = AudioManager.instance;
+        if(audioManager == null)
+        {
+            Debug.LogError("No audio manager found in scene");
+        }
 
     }
 

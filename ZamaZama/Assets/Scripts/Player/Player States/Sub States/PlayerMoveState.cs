@@ -16,11 +16,13 @@ public class PlayerMoveState : PlayerGroundedState
     public override void Enter()
     {
         base.Enter();
+        player.audioManager.PlaySound(player.walkSound);
     }
 
     public override void Exit()
     {
         base.Exit();
+        player.audioManager.Stopsound(player.walkSound);
     }
 
     public override void LogicUpdate()

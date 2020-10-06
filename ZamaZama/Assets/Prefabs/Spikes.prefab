@@ -96,6 +96,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed55ff6b55546314ab7c8a1fc1bf4871, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spikesSound: Spikes
 --- !u!61 &3041548611014952234
 BoxCollider2D:
   m_ObjectHideFlags: 0

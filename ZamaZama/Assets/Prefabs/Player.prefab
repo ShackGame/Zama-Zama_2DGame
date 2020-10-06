@@ -209,6 +209,13 @@ MonoBehaviour:
   gameOverEvent:
     m_PersistentCalls:
       m_Calls: []
+  audioManager: {fileID: 0}
+  jumpSound: Jump
+  meleeSound: P_Melee
+  landSound: Land
+  walkSound: Walk
+  hurtSound: Hurt
+  deadSound: Dead
 --- !u!114 &8668961548359350690
 MonoBehaviour:
   m_ObjectHideFlags: 0

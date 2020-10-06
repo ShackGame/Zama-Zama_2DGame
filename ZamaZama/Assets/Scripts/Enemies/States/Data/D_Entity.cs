@@ -26,4 +26,6 @@ public class D_Entity : ScriptableObject
     [Header("Layer Masks")]
     public LayerMask whatIsGround;
     public LayerMask whatIsPlayer;
+
+   
 }

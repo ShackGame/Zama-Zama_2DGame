@@ -133,10 +133,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 100a9caf6ecc1b549b7d7db1a1bd6107, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healingEffect: {fileID: 6468821766495343015, guid: 3f9ea151515529549ab76df13d1dfdcc,
-    type: 3}
-  playerPos: {fileID: 8668961548359350693, guid: 2e804457df0997946973f1728062bd14,
-    type: 3}
+  gameBtnSound: Health
 --- !u!1 &6065769304505762432
 GameObject:
   m_ObjectHideFlags: 0

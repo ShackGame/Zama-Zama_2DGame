@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 450205410501865242}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.355, y: 0.212, z: 0}
+  m_LocalPosition: {x: 0.435, y: 0.308, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 450205410817537335}
@@ -54,7 +54,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 450205410709714440}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.303, y: -0.073, z: 0}
+  m_LocalPosition: {x: -0.083, y: -0.04, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 450205410817537335}
@@ -183,7 +183,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.06444907, y: -0.09527254}
+  m_Offset: {x: 0.06444907, y: 0.0027801096}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -194,7 +194,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.87110186, y: 0.41715574}
+  m_Size: {x: 0.87110186, y: 0.40909672}
   m_EdgeRadius: 0
 --- !u!114 &450205410817537333
 MonoBehaviour:
@@ -283,7 +283,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 450205412020942310}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.493, y: -0.258, z: 0}
+  m_LocalPosition: {x: 0.493, y: -0.134, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 450205410817537335}
@@ -315,7 +315,7 @@ Transform:
   m_GameObject: {fileID: 450205412072911210}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.93, y: -2.96, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_Children:
   - {fileID: 450205410817537335}
   m_Father: {fileID: 0}
@@ -348,6 +348,9 @@ MonoBehaviour:
     type: 2}
   stunStateData: {fileID: 11400000, guid: 6b2bb06ee04589e44b2fa39d287c2e69, type: 2}
   deadStateData: {fileID: 11400000, guid: 269d5c9e15c32e142a84d814d59f43d7, type: 2}
+  audioManager: {fileID: 0}
+  attackSound: E3_Attack
+  moveSound: E3_Move
   meleeAttackPosition: {fileID: 450205410501865241}
 --- !u!1 &450205412583867365
 GameObject:

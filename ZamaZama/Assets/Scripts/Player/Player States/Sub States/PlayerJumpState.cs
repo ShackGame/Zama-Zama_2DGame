@@ -16,6 +16,7 @@ public class PlayerJumpState : PlayerAbilityState
     {
         base.Enter();
 
+        player.audioManager.PlaySound(player.jumpSound);
         GameObject.Instantiate(player.jumpEffect, player.jumpEffectPos.transform);
 
         player.SetVelocityY(playerData.jumpVelocity);

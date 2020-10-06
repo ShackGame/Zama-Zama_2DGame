@@ -19,11 +19,13 @@ public class E3_ChargeState : ChargeState
     public override void Enter()
     {
         base.Enter();
+        enemy.audioManager.PlaySound(enemy.moveSound);
     }
 
     public override void Exit()
     {
         base.Exit();
+        enemy.audioManager.Stopsound(enemy.moveSound);
     }
 
     public override void LogicUpdate()

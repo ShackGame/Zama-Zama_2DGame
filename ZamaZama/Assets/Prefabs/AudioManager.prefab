@@ -46,29 +46,106 @@ MonoBehaviour:
   sounds:
   - name: Music
     clip: {fileID: 8300000, guid: 766eaa920f37a4a41a7100cbae1acc95, type: 3}
-    volume: 0.4
+    volume: 0.5
     pitch: 1
     randomVolume: 0
     randomPitch: 0
     loop: 1
-  - name: Shoot
-    clip: {fileID: 8300000, guid: 2dd0420fee0b3ef47a860fe7802e67aa, type: 3}
+  - name: Coin
+    clip: {fileID: 8300000, guid: 3d1071a5683535a4ea6f5946164e9b77, type: 3}
     volume: 0.4
     pitch: 1
-    randomVolume: 0
-    randomPitch: 0
+    randomVolume: 0.1
+    randomPitch: 0.1
     loop: 0
   - name: Button
     clip: {fileID: 8300000, guid: 6e99b7818e4f26a41936c38b40e85f7b, type: 3}
     volume: 0.4
     pitch: 1
-    randomVolume: 0
-    randomPitch: 0
+    randomVolume: 0.1
+    randomPitch: 0.1
     loop: 0
-  - name: Melee
-    clip: {fileID: 8300000, guid: 30650deeff96a09418dadc5a734a967a, type: 3}
+  - name: Health
+    clip: {fileID: 8300000, guid: aa9f32c509d747645aa7f8dc565b5c67, type: 3}
     volume: 0.4
     pitch: 1
-    randomVolume: 0
-    randomPitch: 0
+    randomVolume: 0.1
+    randomPitch: 0.1
+    loop: 0
+  - name: Pot
+    clip: {fileID: 8300000, guid: 7946a8d9347d7944f9cdda132cdf11fe, type: 3}
+    volume: 0.8
+    pitch: 1
+    randomVolume: 0.1
+    randomPitch: 0.1
+    loop: 0
+  - name: Land
+    clip: {fileID: 8300000, guid: add8eca9a39679841b7c27133d8979fd, type: 3}
+    volume: 0.6
+    pitch: 1
+    randomVolume: 0.1
+    randomPitch: 0.1
+    loop: 0
+  - name: Jump
+    clip: {fileID: 8300000, guid: 941c6ef0ebe25964ebba7bf535f85cfe, type: 3}
+    volume: 0.6
+    pitch: 1
+    randomVolume: 0.1
+    randomPitch: 0.1
+    loop: 0
+  - name: P_Melee
+    clip: {fileID: 8300000, guid: 61db8339408048042bedbee865947114, type: 3}
+    volume: 0.3
+    pitch: 1
+    randomVolume: 0.1
+    randomPitch: 0.1
+    loop: 0
+  - name: Spikes
+    clip: {fileID: 8300000, guid: 35ed00add82bd4748b93407d48316e8c, type: 3}
+    volume: 0.5
+    pitch: 1
+    randomVolume: 0.1
+    randomPitch: 0.1
+    loop: 0
+  - name: Walk
+    clip: {fileID: 8300000, guid: f1ac796d080084b4cac4d6c9e33b327a, type: 3}
+    volume: 0.5
+    pitch: 1
+    randomVolume: 0.1
+    randomPitch: 0.1
+    loop: 1
+  - name: Hurt
+    clip: {fileID: 8300000, guid: 4bbb5ad5a56a07f4195dccb1f17be3f5, type: 3}
+    volume: 0.5
+    pitch: 1
+    randomVolume: 0.1
+    randomPitch: 0.1
+    loop: 0
+  - name: Dead
+    clip: {fileID: 8300000, guid: 967fe1882cd09914d83064bd8c61c2c1, type: 3}
+    volume: 0.5
+    pitch: 1
+    randomVolume: 0.1
+    randomPitch: 0.1
+    loop: 0
+  - name: E3_Detect
+    clip: {fileID: 8300000, guid: b8c9127a01bcdb64dbb1b0485758eb36, type: 3}
+    volume: 0.5
+    pitch: 1
+    randomVolume: 0.1
+    randomPitch: 0.1
+    loop: 0
+  - name: Death
+    clip: {fileID: 8300000, guid: 17125684a1fae844eaf8acfe9b0c7a47, type: 3}
+    volume: 0.6
+    pitch: 1
+    randomVolume: 0.1
+    randomPitch: 0.1
+    loop: 0
+  - name: E3_Attack
+    clip: {fileID: 8300000, guid: 93b3800d5cc58b54a9e44b82443e7476, type: 3}
+    volume: 0.3
+    pitch: 1
+    randomVolume: 0.1
+    randomPitch: 0.1
     loop: 0

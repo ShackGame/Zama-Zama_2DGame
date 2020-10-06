@@ -33,6 +33,9 @@ public class Entity : MonoBehaviour
     protected bool isStunned;
     protected bool isDead;
 
+    public AudioManager audioManager;
+    
+
     public virtual void Start()
     {
         facingDirection = 1;
@@ -45,6 +48,12 @@ public class Entity : MonoBehaviour
         atsm = aliveGO.GetComponent<AnimationToStatemachine>();
 
         stateMachine = new FiniteStateMachine();
+
+        audioManager = AudioManager.instance;
+        if(audioManager == null)
+        {
+            Debug.LogError("No audio source found");
+        }
     }
 
     public virtual void Update()

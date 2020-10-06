@@ -4812,6 +4812,7 @@ MonoBehaviour:
     type: 3}
   scoreParticle: {fileID: 6049236099606229026, guid: 30925dfc2234da2489cddb289705c4f6,
     type: 3}
+  potBreakSound: Pot
 --- !u!1 &7333854554159724067
 GameObject:
   m_ObjectHideFlags: 0

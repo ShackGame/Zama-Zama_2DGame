@@ -114,3 +114,4 @@ MonoBehaviour:
   scoreParticle: {fileID: 6049236099606229026, guid: 30925dfc2234da2489cddb289705c4f6,
     type: 3}
   transitionTo: -0.8
+  coinPickupSound: Coin

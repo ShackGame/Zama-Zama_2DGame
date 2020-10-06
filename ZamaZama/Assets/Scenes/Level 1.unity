@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -11142,6 +11142,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8668961548359350693, guid: 2e804457df0997946973f1728062bd14,
         type: 3}
+    - target: {fileID: 6065769302905148046, guid: cf8b4e4f89211e54ba475d775fd8c8c2,
+        type: 3}
+      propertyPath: gameBtnSound
+      value: Health
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cf8b4e4f89211e54ba475d775fd8c8c2, type: 3}
 --- !u!1001 &6212125416125545642
@@ -12647,6 +12652,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8668961548359350682, guid: 2e804457df0997946973f1728062bd14,
+        type: 3}
+      propertyPath: meleeSound
+      value: P_Melee
+      objectReference: {fileID: 0}
+    - target: {fileID: 8668961548359350682, guid: 2e804457df0997946973f1728062bd14,
+        type: 3}
+      propertyPath: landSound
+      value: Land
+      objectReference: {fileID: 0}
     - target: {fileID: 8668961548359350683, guid: 2e804457df0997946973f1728062bd14,
         type: 3}
       propertyPath: m_Name

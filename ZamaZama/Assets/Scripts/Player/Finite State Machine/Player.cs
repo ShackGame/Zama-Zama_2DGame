@@ -59,7 +59,15 @@ public class Player : MonoBehaviour
     public int FacingDirection { get; private set; }
     private Vector2 workspace;
 
-    AudioManager audioManager;
+    public AudioManager audioManager;
+
+
+    public string jumpSound;
+    public string meleeSound;   
+    public string landSound;
+    public string walkSound;
+    public string hurtSound;
+    public string deadSound;
 
     #endregion
 
@@ -192,7 +200,7 @@ public class Player : MonoBehaviour
     public virtual void Damage(AttackDetails attackdetails)
     {
 
-        
+        audioManager.PlaySound(hurtSound);
         GameManager.instance.Health -= attackdetails.damageAmount;
 
         Instantiate(playerData.hitParticle, RB.transform.position, Quaternion.Euler(0f, 0f, Random.Range(0f, 360f)));

@@ -28,6 +28,11 @@ public class CombatPot : MonoBehaviour
     private Rigidbody2D rbAlive, rbBrokenTop, rbBrokenBot;
     private Animator aliveAnim;
 
+    [SerializeField]
+    private string potBreakSound;
+
+    private AudioManager audioManager;
+
     private void Start()
     {
         currentHealth = maxHealth;
@@ -47,6 +52,12 @@ public class CombatPot : MonoBehaviour
         aliveGO.SetActive(true);
         brokenTopGO.SetActive(false);
         brokenBotGO.SetActive(false);
+
+        audioManager = AudioManager.instance;
+        if (audioManager == null)
+        {
+            Debug.Log("No AudioManager found");
+        }
 
     }
 
@@ -105,6 +116,7 @@ public class CombatPot : MonoBehaviour
 
     private void Die()
     {
+        audioManager.PlaySound(potBreakSound);
         aliveGO.SetActive(false);
         brokenTopGO.SetActive(true);
         brokenBotGO.SetActive(true);

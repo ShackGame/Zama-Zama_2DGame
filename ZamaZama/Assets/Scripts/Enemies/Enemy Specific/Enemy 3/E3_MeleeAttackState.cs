@@ -19,6 +19,7 @@ public class E3_MeleeAttackState : MeleeAttackState
     public override void Enter()
     {
         base.Enter();
+        enemy.audioManager.PlaySound(enemy.attackSound);
     }
 
     public override void Exit()

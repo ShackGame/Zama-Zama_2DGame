@@ -8,6 +8,18 @@ public class HealthPickUp : MonoBehaviour
 
     private bool needsHealth = false;
 
+    [SerializeField]
+    private string gameBtnSound;
+
+    private AudioManager audioManager;
+    private void Start()
+    {
+        audioManager = AudioManager.instance;
+        if (audioManager == null)
+        {
+            Debug.Log("No AudioManager found");
+        }
+    }
     private void FixedUpdate()
     {
         if (GameManager.instance.Health < 5f)
@@ -24,6 +36,7 @@ public class HealthPickUp : MonoBehaviour
     {
         if (collision.CompareTag("Player")  && needsHealth)
         {
+            audioManager.PlaySound(gameBtnSound);
             needsHealth = false;
             GameManager.instance.Health += 2f;
             SpawnHealingEffect = true;
