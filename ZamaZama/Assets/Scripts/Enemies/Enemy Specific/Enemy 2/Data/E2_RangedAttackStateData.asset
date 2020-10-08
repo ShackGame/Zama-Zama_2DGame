@@ -17,3 +17,4 @@ MonoBehaviour:
   projectileDamage: 1
   projectileSpeed: 12
   projectileTravelDistance: 5
+  rangedAttackSound: Ranged

@@ -48,6 +48,10 @@ public class QuitGame : MonoBehaviour
         StartCoroutine(LoadLevel());
     }
 
+    public void OnButtonStore()
+    {
+        StartCoroutine(LoadLevel("Store"));
+    }
     IEnumerator LoadLevel()
     {
         transition.SetTrigger("start");

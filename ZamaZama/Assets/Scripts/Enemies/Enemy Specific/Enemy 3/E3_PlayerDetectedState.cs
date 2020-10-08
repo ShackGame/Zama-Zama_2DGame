@@ -13,7 +13,8 @@ public class E3_PlayerDetectedState : PlayerDetectedState
 
     public override void Enter()
     {
-        base.Enter();       
+        base.Enter();
+        entity.audioManager.PlaySound(stateData.playerDetectedSoundDog);
     }
 
     public override void Exit()

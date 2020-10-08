@@ -7,6 +7,8 @@ using UnityEngine.AddressableAssets;
 
 public class NextLevel : MonoBehaviour
 {
+    public static NextLevel instance;
+
     public string nextSceneAddress;
 
     public Animator transition;

@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: E3_PlayerDetectedStateData
   m_EditorClassIdentifier: 
   longRangeActionTime: 1.5
+  playerDetectedSoundDog: E3_Detect

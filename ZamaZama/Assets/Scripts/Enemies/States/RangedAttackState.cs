@@ -47,7 +47,7 @@ public class RangedAttackState : AttackState
     public override void TriggerAttack()
     {
         base.TriggerAttack();
-
+        entity.audioManager.PlaySound(stateData.rangedAttackSound);
         projectile = GameObject.Instantiate(stateData.projectile, attackPosition.position, attackPosition.rotation);
         projectileScript = projectile.GetComponent<Projectile>();
         projectileScript.FireProjectile(stateData.projectileSpeed, stateData.projectileTravelDistance, stateData.projectileDamage);

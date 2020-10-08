@@ -129,7 +129,7 @@ MonoBehaviour:
     randomPitch: 0.1
     loop: 0
   - name: E3_Detect
-    clip: {fileID: 8300000, guid: b8c9127a01bcdb64dbb1b0485758eb36, type: 3}
+    clip: {fileID: 8300000, guid: ccb97e6af25398246a7330f102a91f74, type: 3}
     volume: 0.5
     pitch: 1
     randomVolume: 0.1
@@ -144,6 +144,20 @@ MonoBehaviour:
     loop: 0
   - name: E3_Attack
     clip: {fileID: 8300000, guid: 93b3800d5cc58b54a9e44b82443e7476, type: 3}
+    volume: 0.3
+    pitch: 1
+    randomVolume: 0.1
+    randomPitch: 0.1
+    loop: 0
+  - name: Ranged
+    clip: {fileID: 8300000, guid: 2dd0420fee0b3ef47a860fe7802e67aa, type: 3}
+    volume: 0.3
+    pitch: 1
+    randomVolume: 0.1
+    randomPitch: 0.1
+    loop: 0
+  - name: Horse
+    clip: {fileID: 8300000, guid: 2d52ea84cd618cf43b23d9277dca5d98, type: 3}
     volume: 0.3
     pitch: 1
     randomVolume: 0.1

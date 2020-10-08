@@ -16,3 +16,4 @@ MonoBehaviour:
     type: 3}
   deathBloodParticle: {fileID: 4303715706368892598, guid: b2cbe275cded69142b792f8b406200b0,
     type: 3}
+  deathSound: Death

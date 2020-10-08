@@ -17,3 +17,4 @@ MonoBehaviour:
   whatIsPlayer:
     serializedVersion: 2
     m_Bits: 1024
+  meleeSound: P_Melee

@@ -6,4 +6,6 @@ using UnityEngine;
 public class D_PlayerDetected : ScriptableObject
 {
     public float longRangeActionTime = 1.5f;
+
+    public string playerDetectedSoundDog;
 }

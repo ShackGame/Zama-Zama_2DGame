@@ -9,4 +9,6 @@ public class D_MeleeAttack : ScriptableObject
     public float attackDamage = 10f;
 
     public LayerMask whatIsPlayer;
+
+    public string meleeSound;
 }
