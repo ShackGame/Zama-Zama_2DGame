@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -1517,18 +1517,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 351118285}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2030455975}
-        m_MethodName: Purchase
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: com.zamazama320000
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &351118285
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1579,7 +1568,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36a5f511b0d8142cba0aeb92d0b264c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  productId: 
+  productId: com.zamazama320000
   buttonType: 0
   consumePurchase: 1
   onPurchaseComplete:
@@ -7304,12 +7293,12 @@ PrefabInstance:
     - target: {fileID: 5990253849627794302, guid: d231a63c015911448ad03b50ede8319b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.7444935
+      value: -4.7444735
       objectReference: {fileID: 0}
     - target: {fileID: 5990253849627794302, guid: d231a63c015911448ad03b50ede8319b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.9860742
+      value: -0.9913366
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d231a63c015911448ad03b50ede8319b, type: 3}
