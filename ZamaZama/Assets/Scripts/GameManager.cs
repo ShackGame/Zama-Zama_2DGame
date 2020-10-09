@@ -1,11 +1,10 @@
 ﻿using System;
 using System.Collections;
-using System.Collections.Generic;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 using UnityEngine;
-using UnityEngine.AddressableAssets;
 using UnityEngine.SceneManagement;
+
 
 public class GameManager : MonoBehaviour
 {
@@ -22,6 +21,7 @@ public class GameManager : MonoBehaviour
     //Cache
     private AudioManager audioManager;
 
+
     private void Awake()
     {
         if (instance == null)
@@ -33,10 +33,12 @@ public class GameManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
     }
 
     private void Start()
     {
+        
         loadGameBtn.SetActive(false);
 
         //caching
@@ -46,6 +48,7 @@ public class GameManager : MonoBehaviour
         {
             Debug.LogError("No audio manager found in the scene");
         }
+        
     }
 
     public void Save()
@@ -60,7 +63,6 @@ public class GameManager : MonoBehaviour
 
         bf.Serialize(file, data);
         file.Close();
-
     }
 
     public void Load()
@@ -100,3 +102,9 @@ class PlayerData_S
     public float experienceCoins;
     public string level;
 }
+
+
+
+
+
+

@@ -3,14 +3,20 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
+
 public class Purchaser : MonoBehaviour
 {
     public TMP_Text transactionTxt;
 
     private void Start()
     {
+
+
         transactionTxt.text = "";
     }
+
+   
+
     public void PurchaseCompleteGrantcredits(float coins)
     {
         //Give player coins
@@ -35,4 +41,8 @@ public class Purchaser : MonoBehaviour
 
         transactionTxt.text = "Transaction Failed!";
     }
+
+  
 }
+
+
