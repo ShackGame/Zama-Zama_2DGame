@@ -128,7 +128,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: V2.0.0
+  bundleVersion: V2.0.2
   preloadedAssets:
   - {fileID: 11400000, guid: a9096afab45edb541be2ade15aee8aa8, type: 2}
   metroInputSource: 0
@@ -175,7 +175,7 @@ PlayerSettings:
   applicationIdentifier:
     Android: com.DefaultCompany.ZamaZama
   buildNumber: {}
-  AndroidBundleVersionCode: 21
+  AndroidBundleVersionCode: 23
   AndroidMinSdkVersion: 19
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 1

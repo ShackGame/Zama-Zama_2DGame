@@ -32,6 +32,11 @@ public class QuitGame : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+    public void LoadGame()
+    {
+        GameManager.instance.Load();
+    }
     private void Start()
     {
         loadGameUI.SetActive(false);

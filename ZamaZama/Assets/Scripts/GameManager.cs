@@ -40,6 +40,7 @@ public class GameManager : MonoBehaviour
     {
         
         loadGameBtn.SetActive(false);
+       
 
         //caching
         audioManager = AudioManager.instance;
@@ -69,7 +70,6 @@ public class GameManager : MonoBehaviour
     {
         if (File.Exists(Application.persistentDataPath + "/playerInfo.dat"))
         {
-            Debug.Log("Loading previous Game");
             BinaryFormatter bf = new BinaryFormatter();
             FileStream file = File.Open(Application.persistentDataPath + "/playerInfo.dat", FileMode.Open);
             PlayerData_S data = (PlayerData_S)bf.Deserialize(file);

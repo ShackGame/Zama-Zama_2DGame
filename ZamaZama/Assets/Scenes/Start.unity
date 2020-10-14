@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -345,8 +345,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 730230591}
-        m_MethodName: Load
+      - m_Target: {fileID: 1349944291}
+        m_MethodName: LoadGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1374,18 +1374,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 679332657}
   m_CullTransparentMesh: 0
---- !u!114 &730230591 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 22723260187808242, guid: 5ea75ecb5d5bb254a8156e541a681aca,
-    type: 3}
-  m_PrefabInstance: {fileID: 406093677}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f48a06ece99dc974a82f98ec68030ef9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &818095289
 GameObject:
   m_ObjectHideFlags: 0
@@ -1581,12 +1569,12 @@ MonoBehaviour:
   m_Script: {fileID: 403243224, guid: a1b1ab44b4414d64bd404c895fbd1eab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  adType: 0
+  adType: 1
   selectedPlacementIndex: 0
-  androidAdUnitId: 
-  iOSAdUnitId: 
+  androidAdUnitId: ca-app-pub-3940256099942544/1033173712
+  iOSAdUnitId: ca-app-pub-3940256099942544/4411468910
   persistent: 0
-  autoLoadEnabled: 0
+  autoLoadEnabled: 1
   onAdLoaded:
     m_PersistentCalls:
       m_Calls: []
